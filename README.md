@@ -11,10 +11,6 @@ Small Selenium + Cucumber test project for `https://solutionshub.epam.com/`.
    ```bash
    sh gradlew clean test -Dheadless=false --no-daemon
    ```
-4. If browser closes too fast, add pause (5 sec):
-   ```bash
-   sh gradlew clean test -Dheadless=false -Dpause.ms=5000 --no-daemon
-   ```
 
 Reports:
 - `build/reports/tests/test/index.html`
